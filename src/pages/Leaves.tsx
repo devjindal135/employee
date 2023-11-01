@@ -7,7 +7,7 @@ import { FaTrash } from "react-icons/fa";
 
 interface DataType {
   avatar: ReactElement;
-  name: string;
+  name: string;  
   email: string;
   gender: string;
   role: string;
@@ -41,7 +41,6 @@ const columns: Column<DataType>[] = [
   },
 ];
 const img = "https://randomuser.me/api/portraits/women/54.jpg";
-const img2 = "https://randomuser.me/api/portraits/women/50.jpg";
 
 const arr: DataType[] = [
   {
